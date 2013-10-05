@@ -122,7 +122,7 @@ class AboutIteration < Neo::Koan
     # each subsequent value of the array in the same manner. 
     #
     # If one imagines that the argument in inject(arg) changes each time through the array, it becomes easier
-    # to understand the inject method. 
+    # to grasp what occurs as the inject method iterates. 
     #
     # For example in -
     # result2 = [2, 3, 4].inject(3) { |product, item| product * item }
