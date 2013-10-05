@@ -88,5 +88,10 @@ class AboutConstants < Neo::Koan
   # different than the previous answer?
   
   # Because MyAnimals::Oyster receives inheritance from the global scope, Animals, it has no knowledge of 
-  # values assigned in MyAnimals. If a class Oyster was created in MyAnimals in the same manner as class Bird, it would inherit the characteristics of that class rather than Animals. 
+  # values assigned in MyAnimals. If a class Oyster was created in MyAnimals in the same manner as class Bird,
+  # it would inherit the characteristics of that class rather than Animals. 
+  #
+  # Further explanation can be found - 
+  # http://stackoverflow.com/questions/5464811/ruby-koans-explicit-scoping-on-a-class-definition-part-2
+  
 end
